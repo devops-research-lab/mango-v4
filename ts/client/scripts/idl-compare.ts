@@ -311,6 +311,10 @@ export function accountSize(idl: Idl, idlAccount: IdlTypeDef): number {
     );
     return Math.max(...variantSizes) + 1;
   }
+  if (idlAccount.type.kind === 'alias') {
+    return typeSize(idl, idlAccount.type.value);
+  }
+
   if (idlAccount.type.fields === undefined) {
     return 0;
   }
