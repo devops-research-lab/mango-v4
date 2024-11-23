@@ -4537,6 +4537,46 @@ export type MangoV4 = {
       "args": []
     },
     {
+      "name": "perpPurgePosition",
+      "accounts": [
+        {
+          "name": "group",
+          "isMut": false,
+          "isSigner": false
+        },
+        {
+          "name": "account",
+          "isMut": true,
+          "isSigner": false,
+          "relations": [
+            "group"
+          ]
+        },
+        {
+          "name": "perpMarket",
+          "isMut": false,
+          "isSigner": false,
+          "relations": [
+            "group"
+          ]
+        },
+        {
+          "name": "settleBank",
+          "isMut": true,
+          "isSigner": false,
+          "relations": [
+            "group"
+          ]
+        },
+        {
+          "name": "settleOracle",
+          "isMut": false,
+          "isSigner": false
+        }
+      ],
+      "args": []
+    },
+    {
       "name": "perpPlaceOrder",
       "accounts": [
         {
@@ -5162,6 +5202,50 @@ export type MangoV4 = {
             }
           }
         },
+        {
+          "name": "limit",
+          "type": "u8"
+        }
+      ]
+    },
+    {
+      "name": "perpPurgeOrders",
+      "accounts": [
+        {
+          "name": "group",
+          "isMut": false,
+          "isSigner": false
+        },
+        {
+          "name": "account",
+          "isMut": true,
+          "isSigner": false,
+          "relations": [
+            "group"
+          ]
+        },
+        {
+          "name": "perpMarket",
+          "isMut": true,
+          "isSigner": false,
+          "relations": [
+            "group",
+            "bids",
+            "asks"
+          ]
+        },
+        {
+          "name": "bids",
+          "isMut": true,
+          "isSigner": false
+        },
+        {
+          "name": "asks",
+          "isMut": true,
+          "isSigner": false
+        }
+      ],
+      "args": [
         {
           "name": "limit",
           "type": "u8"
@@ -19123,6 +19207,46 @@ export const IDL: MangoV4 = {
       "args": []
     },
     {
+      "name": "perpPurgePosition",
+      "accounts": [
+        {
+          "name": "group",
+          "isMut": false,
+          "isSigner": false
+        },
+        {
+          "name": "account",
+          "isMut": true,
+          "isSigner": false,
+          "relations": [
+            "group"
+          ]
+        },
+        {
+          "name": "perpMarket",
+          "isMut": false,
+          "isSigner": false,
+          "relations": [
+            "group"
+          ]
+        },
+        {
+          "name": "settleBank",
+          "isMut": true,
+          "isSigner": false,
+          "relations": [
+            "group"
+          ]
+        },
+        {
+          "name": "settleOracle",
+          "isMut": false,
+          "isSigner": false
+        }
+      ],
+      "args": []
+    },
+    {
       "name": "perpPlaceOrder",
       "accounts": [
         {
@@ -19748,6 +19872,50 @@ export const IDL: MangoV4 = {
             }
           }
         },
+        {
+          "name": "limit",
+          "type": "u8"
+        }
+      ]
+    },
+    {
+      "name": "perpPurgeOrders",
+      "accounts": [
+        {
+          "name": "group",
+          "isMut": false,
+          "isSigner": false
+        },
+        {
+          "name": "account",
+          "isMut": true,
+          "isSigner": false,
+          "relations": [
+            "group"
+          ]
+        },
+        {
+          "name": "perpMarket",
+          "isMut": true,
+          "isSigner": false,
+          "relations": [
+            "group",
+            "bids",
+            "asks"
+          ]
+        },
+        {
+          "name": "bids",
+          "isMut": true,
+          "isSigner": false
+        },
+        {
+          "name": "asks",
+          "isMut": true,
+          "isSigner": false
+        }
+      ],
+      "args": [
         {
           "name": "limit",
           "type": "u8"

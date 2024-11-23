@@ -9,18 +9,13 @@
           "name": "group",
           "isMut": false,
           "isSigner": false,
-          "relations": [
-            "admin"
-          ]
+          "relations": ["admin"]
         },
         {
           "name": "bank",
           "isMut": true,
           "isSigner": false,
-          "relations": [
-            "group",
-            "vault"
-          ]
+          "relations": ["group", "vault"]
         },
         {
           "name": "vault",
@@ -52,26 +47,19 @@
           "name": "group",
           "isMut": false,
           "isSigner": false,
-          "relations": [
-            "admin"
-          ]
+          "relations": ["admin"]
         },
         {
           "name": "perpMarket",
           "isMut": true,
           "isSigner": false,
-          "relations": [
-            "group"
-          ]
+          "relations": ["group"]
         },
         {
           "name": "bank",
           "isMut": true,
           "isSigner": false,
-          "relations": [
-            "group",
-            "vault"
-          ]
+          "relations": ["group", "vault"]
         },
         {
           "name": "vault",
@@ -195,9 +183,7 @@
           "name": "group",
           "isMut": true,
           "isSigner": false,
-          "relations": [
-            "admin"
-          ]
+          "relations": ["admin"]
         },
         {
           "name": "admin",
@@ -293,10 +279,7 @@
           "name": "group",
           "isMut": false,
           "isSigner": false,
-          "relations": [
-            "insurance_vault",
-            "admin"
-          ]
+          "relations": ["insurance_vault", "admin"]
         },
         {
           "name": "admin",
@@ -333,10 +316,7 @@
           "name": "group",
           "isMut": true,
           "isSigner": false,
-          "relations": [
-            "insurance_vault",
-            "admin"
-          ]
+          "relations": ["insurance_vault", "admin"]
         },
         {
           "name": "admin",
@@ -434,10 +414,7 @@
           "name": "group",
           "isMut": true,
           "isSigner": false,
-          "relations": [
-            "admin",
-            "insurance_vault"
-          ]
+          "relations": ["admin", "insurance_vault"]
         },
         {
           "name": "admin",
@@ -469,9 +446,7 @@
           "name": "group",
           "isMut": false,
           "isSigner": false,
-          "relations": [
-            "admin"
-          ]
+          "relations": ["admin"]
         },
         {
           "name": "admin",
@@ -892,9 +867,7 @@
           "name": "mintInfo",
           "isMut": true,
           "isSigner": false,
-          "relations": [
-            "group"
-          ]
+          "relations": ["group"]
         },
         {
           "name": "oracle",
@@ -1173,9 +1146,7 @@
           "name": "group",
           "isMut": false,
           "isSigner": false,
-          "relations": [
-            "admin"
-          ]
+          "relations": ["admin"]
         },
         {
           "name": "admin",
@@ -1191,10 +1162,7 @@
           "name": "existingBank",
           "isMut": false,
           "isSigner": false,
-          "relations": [
-            "group",
-            "mint"
-          ]
+          "relations": ["group", "mint"]
         },
         {
           "name": "bank",
@@ -1258,10 +1226,7 @@
           "name": "mintInfo",
           "isMut": true,
           "isSigner": false,
-          "relations": [
-            "group",
-            "mint"
-          ]
+          "relations": ["group", "mint"]
         },
         {
           "name": "payer",
@@ -1302,9 +1267,7 @@
           "name": "group",
           "isMut": false,
           "isSigner": false,
-          "relations": [
-            "admin"
-          ]
+          "relations": ["admin"]
         },
         {
           "name": "admin",
@@ -1315,9 +1278,7 @@
           "name": "mintInfo",
           "isMut": true,
           "isSigner": false,
-          "relations": [
-            "group"
-          ]
+          "relations": ["group"]
         },
         {
           "name": "dustVault",
@@ -1349,10 +1310,7 @@
           "name": "mintInfo",
           "isMut": false,
           "isSigner": false,
-          "relations": [
-            "oracle",
-            "group"
-          ]
+          "relations": ["oracle", "group"]
         },
         {
           "name": "oracle",
@@ -1379,10 +1337,7 @@
           "name": "mintInfo",
           "isMut": false,
           "isSigner": false,
-          "relations": [
-            "oracle",
-            "group"
-          ]
+          "relations": ["oracle", "group"]
         },
         {
           "name": "oracle",
@@ -1573,10 +1528,7 @@
           "name": "account",
           "isMut": true,
           "isSigner": false,
-          "relations": [
-            "group",
-            "owner"
-          ]
+          "relations": ["group", "owner"]
         },
         {
           "name": "owner",
@@ -1625,10 +1577,7 @@
           "name": "account",
           "isMut": true,
           "isSigner": false,
-          "relations": [
-            "group",
-            "owner"
-          ]
+          "relations": ["group", "owner"]
         },
         {
           "name": "owner",
@@ -1681,9 +1630,7 @@
           "name": "account",
           "isMut": true,
           "isSigner": false,
-          "relations": [
-            "group"
-          ]
+          "relations": ["group"]
         },
         {
           "name": "payer",
@@ -1710,10 +1657,7 @@
           "name": "account",
           "isMut": true,
           "isSigner": false,
-          "relations": [
-            "group",
-            "owner"
-          ]
+          "relations": ["group", "owner"]
         },
         {
           "name": "owner",
@@ -1760,9 +1704,7 @@
           "name": "account",
           "isMut": true,
           "isSigner": false,
-          "relations": [
-            "group"
-          ]
+          "relations": ["group"]
         },
         {
           "name": "admin",
@@ -1789,10 +1731,7 @@
           "name": "account",
           "isMut": true,
           "isSigner": false,
-          "relations": [
-            "group",
-            "owner"
-          ]
+          "relations": ["group", "owner"]
         },
         {
           "name": "owner",
@@ -1829,9 +1768,7 @@
           "name": "account",
           "isMut": true,
           "isSigner": false,
-          "relations": [
-            "group"
-          ]
+          "relations": ["group"]
         },
         {
           "name": "owner",
@@ -1842,17 +1779,13 @@
           "name": "daoAccount",
           "isMut": true,
           "isSigner": false,
-          "relations": [
-            "group"
-          ]
+          "relations": ["group"]
         },
         {
           "name": "mngoBank",
           "isMut": true,
           "isSigner": false,
-          "relations": [
-            "group"
-          ]
+          "relations": ["group"]
         },
         {
           "name": "mngoOracle",
@@ -1863,9 +1796,7 @@
           "name": "feesBank",
           "isMut": true,
           "isSigner": false,
-          "relations": [
-            "group"
-          ]
+          "relations": ["group"]
         },
         {
           "name": "feesOracle",
@@ -1892,10 +1823,7 @@
           "name": "account",
           "isMut": true,
           "isSigner": false,
-          "relations": [
-            "group",
-            "owner"
-          ]
+          "relations": ["group", "owner"]
         },
         {
           "name": "owner",
@@ -1922,9 +1850,7 @@
           "name": "account",
           "isMut": true,
           "isSigner": false,
-          "relations": [
-            "group"
-          ]
+          "relations": ["group"]
         }
       ],
       "args": [
@@ -1947,9 +1873,7 @@
           "name": "group",
           "isMut": false,
           "isSigner": false,
-          "relations": [
-            "admin"
-          ]
+          "relations": ["admin"]
         },
         {
           "name": "oracle",
@@ -1993,9 +1917,7 @@
           "name": "group",
           "isMut": false,
           "isSigner": false,
-          "relations": [
-            "admin"
-          ]
+          "relations": ["admin"]
         },
         {
           "name": "admin",
@@ -2006,9 +1928,7 @@
           "name": "oracle",
           "isMut": true,
           "isSigner": false,
-          "relations": [
-            "group"
-          ]
+          "relations": ["group"]
         },
         {
           "name": "solDestination",
@@ -2030,9 +1950,7 @@
           "name": "group",
           "isMut": false,
           "isSigner": false,
-          "relations": [
-            "admin"
-          ]
+          "relations": ["admin"]
         },
         {
           "name": "admin",
@@ -2043,9 +1961,7 @@
           "name": "oracle",
           "isMut": true,
           "isSigner": false,
-          "relations": [
-            "group"
-          ]
+          "relations": ["group"]
         }
       ],
       "args": [
@@ -2064,9 +1980,7 @@
           "name": "group",
           "isMut": false,
           "isSigner": false,
-          "relations": [
-            "admin"
-          ]
+          "relations": ["admin"]
         },
         {
           "name": "admin",
@@ -2077,9 +1991,7 @@
           "name": "oracle",
           "isMut": true,
           "isSigner": false,
-          "relations": [
-            "group"
-          ]
+          "relations": ["group"]
         }
       ],
       "args": [
@@ -2113,9 +2025,7 @@
           "name": "account",
           "isMut": true,
           "isSigner": false,
-          "relations": [
-            "group"
-          ]
+          "relations": ["group"]
         },
         {
           "name": "owner",
@@ -2126,11 +2036,7 @@
           "name": "bank",
           "isMut": true,
           "isSigner": false,
-          "relations": [
-            "group",
-            "vault",
-            "oracle"
-          ]
+          "relations": ["group", "vault", "oracle"]
         },
         {
           "name": "vault",
@@ -2181,19 +2087,13 @@
           "name": "account",
           "isMut": true,
           "isSigner": false,
-          "relations": [
-            "group"
-          ]
+          "relations": ["group"]
         },
         {
           "name": "bank",
           "isMut": true,
           "isSigner": false,
-          "relations": [
-            "group",
-            "vault",
-            "oracle"
-          ]
+          "relations": ["group", "vault", "oracle"]
         },
         {
           "name": "vault",
@@ -2244,9 +2144,7 @@
           "name": "account",
           "isMut": true,
           "isSigner": false,
-          "relations": [
-            "group"
-          ]
+          "relations": ["group"]
         },
         {
           "name": "owner",
@@ -2257,11 +2155,7 @@
           "name": "bank",
           "isMut": true,
           "isSigner": false,
-          "relations": [
-            "group",
-            "vault",
-            "oracle"
-          ]
+          "relations": ["group", "vault", "oracle"]
         },
         {
           "name": "vault",
@@ -2317,9 +2211,7 @@
           "name": "instructions",
           "isMut": false,
           "isSigner": false,
-          "docs": [
-            "Instructions Sysvar for instruction introspection"
-          ]
+          "docs": ["Instructions Sysvar for instruction introspection"]
         }
       ],
       "args": [
@@ -2377,9 +2269,7 @@
           "name": "instructions",
           "isMut": false,
           "isSigner": false,
-          "docs": [
-            "Instructions Sysvar for instruction introspection"
-          ]
+          "docs": ["Instructions Sysvar for instruction introspection"]
         }
       ],
       "args": [
@@ -2456,9 +2346,7 @@
           "name": "instructions",
           "isMut": false,
           "isSigner": false,
-          "docs": [
-            "Instructions Sysvar for instruction introspection"
-          ]
+          "docs": ["Instructions Sysvar for instruction introspection"]
         },
         {
           "name": "group",
@@ -2469,9 +2357,7 @@
           "name": "account",
           "isMut": true,
           "isSigner": false,
-          "relations": [
-            "group"
-          ]
+          "relations": ["group"]
         }
       ],
       "args": []
@@ -2489,11 +2375,7 @@
     },
     {
       "name": "serum3RegisterMarket",
-      "docs": [
-        "",
-        "Serum",
-        ""
-      ],
+      "docs": ["", "Serum", ""],
       "accounts": [
         {
           "name": "group",
@@ -2504,9 +2386,7 @@
           "name": "admin",
           "isMut": false,
           "isSigner": true,
-          "docs": [
-            "group admin or fast listing admin, checked at #1"
-          ]
+          "docs": ["group admin or fast listing admin, checked at #1"]
         },
         {
           "name": "serumProgram",
@@ -2570,17 +2450,13 @@
           "name": "quoteBank",
           "isMut": false,
           "isSigner": false,
-          "relations": [
-            "group"
-          ]
+          "relations": ["group"]
         },
         {
           "name": "baseBank",
           "isMut": false,
           "isSigner": false,
-          "relations": [
-            "group"
-          ]
+          "relations": ["group"]
         },
         {
           "name": "payer",
@@ -2625,9 +2501,7 @@
           "name": "market",
           "isMut": true,
           "isSigner": false,
-          "relations": [
-            "group"
-          ]
+          "relations": ["group"]
         }
       ],
       "args": [
@@ -2664,9 +2538,7 @@
           "name": "group",
           "isMut": true,
           "isSigner": false,
-          "relations": [
-            "admin"
-          ]
+          "relations": ["admin"]
         },
         {
           "name": "admin",
@@ -2677,17 +2549,13 @@
           "name": "serumMarket",
           "isMut": true,
           "isSigner": false,
-          "relations": [
-            "group"
-          ]
+          "relations": ["group"]
         },
         {
           "name": "indexReservation",
           "isMut": true,
           "isSigner": false,
-          "relations": [
-            "group"
-          ]
+          "relations": ["group"]
         },
         {
           "name": "solDestination",
@@ -2714,9 +2582,7 @@
           "name": "account",
           "isMut": true,
           "isSigner": false,
-          "relations": [
-            "group"
-          ]
+          "relations": ["group"]
         },
         {
           "name": "owner",
@@ -2727,11 +2593,7 @@
           "name": "serumMarket",
           "isMut": false,
           "isSigner": false,
-          "relations": [
-            "group",
-            "serum_program",
-            "serum_market_external"
-          ]
+          "relations": ["group", "serum_program", "serum_market_external"]
         },
         {
           "name": "serumProgram",
@@ -2797,9 +2659,7 @@
           "name": "account",
           "isMut": true,
           "isSigner": false,
-          "relations": [
-            "group"
-          ]
+          "relations": ["group"]
         },
         {
           "name": "owner",
@@ -2810,11 +2670,7 @@
           "name": "serumMarket",
           "isMut": false,
           "isSigner": false,
-          "relations": [
-            "group",
-            "serum_program",
-            "serum_market_external"
-          ]
+          "relations": ["group", "serum_program", "serum_market_external"]
         },
         {
           "name": "serumProgram",
@@ -2851,9 +2707,7 @@
           "name": "account",
           "isMut": true,
           "isSigner": false,
-          "relations": [
-            "group"
-          ]
+          "relations": ["group"]
         },
         {
           "name": "owner",
@@ -2869,11 +2723,7 @@
           "name": "serumMarket",
           "isMut": false,
           "isSigner": false,
-          "relations": [
-            "group",
-            "serum_program",
-            "serum_market_external"
-          ]
+          "relations": ["group", "serum_program", "serum_market_external"]
         },
         {
           "name": "serumProgram",
@@ -2919,28 +2769,20 @@
           "name": "marketVaultSigner",
           "isMut": false,
           "isSigner": false,
-          "docs": [
-            "needed for the automatic settle_funds call"
-          ]
+          "docs": ["needed for the automatic settle_funds call"]
         },
         {
           "name": "payerBank",
           "isMut": true,
           "isSigner": false,
-          "docs": [
-            "The bank that pays for the order, if necessary"
-          ],
-          "relations": [
-            "group"
-          ]
+          "docs": ["The bank that pays for the order, if necessary"],
+          "relations": ["group"]
         },
         {
           "name": "payerVault",
           "isMut": true,
           "isSigner": false,
-          "docs": [
-            "The bank vault that pays for the order, if necessary"
-          ]
+          "docs": ["The bank vault that pays for the order, if necessary"]
         },
         {
           "name": "payerOracle",
@@ -3009,9 +2851,7 @@
           "name": "account",
           "isMut": true,
           "isSigner": false,
-          "relations": [
-            "group"
-          ]
+          "relations": ["group"]
         },
         {
           "name": "owner",
@@ -3027,11 +2867,7 @@
           "name": "serumMarket",
           "isMut": false,
           "isSigner": false,
-          "relations": [
-            "group",
-            "serum_program",
-            "serum_market_external"
-          ]
+          "relations": ["group", "serum_program", "serum_market_external"]
         },
         {
           "name": "serumProgram",
@@ -3077,28 +2913,20 @@
           "name": "marketVaultSigner",
           "isMut": false,
           "isSigner": false,
-          "docs": [
-            "needed for the automatic settle_funds call"
-          ]
+          "docs": ["needed for the automatic settle_funds call"]
         },
         {
           "name": "payerBank",
           "isMut": true,
           "isSigner": false,
-          "docs": [
-            "The bank that pays for the order, if necessary"
-          ],
-          "relations": [
-            "group"
-          ]
+          "docs": ["The bank that pays for the order, if necessary"],
+          "relations": ["group"]
         },
         {
           "name": "payerVault",
           "isMut": true,
           "isSigner": false,
-          "docs": [
-            "The bank vault that pays for the order, if necessary"
-          ]
+          "docs": ["The bank vault that pays for the order, if necessary"]
         },
         {
           "name": "payerOracle",
@@ -3164,9 +2992,7 @@
           "name": "account",
           "isMut": true,
           "isSigner": false,
-          "relations": [
-            "group"
-          ]
+          "relations": ["group"]
         },
         {
           "name": "owner",
@@ -3182,11 +3008,7 @@
           "name": "serumMarket",
           "isMut": false,
           "isSigner": false,
-          "relations": [
-            "group",
-            "serum_program",
-            "serum_market_external"
-          ]
+          "relations": ["group", "serum_program", "serum_market_external"]
         },
         {
           "name": "serumProgram",
@@ -3239,9 +3061,7 @@
           "name": "account",
           "isMut": true,
           "isSigner": false,
-          "relations": [
-            "group"
-          ]
+          "relations": ["group"]
         },
         {
           "name": "owner",
@@ -3257,11 +3077,7 @@
           "name": "serumMarket",
           "isMut": false,
           "isSigner": false,
-          "relations": [
-            "group",
-            "serum_program",
-            "serum_market_external"
-          ]
+          "relations": ["group", "serum_program", "serum_market_external"]
         },
         {
           "name": "serumProgram",
@@ -3308,9 +3124,7 @@
           "name": "account",
           "isMut": false,
           "isSigner": false,
-          "relations": [
-            "group"
-          ]
+          "relations": ["group"]
         },
         {
           "name": "owner",
@@ -3326,11 +3140,7 @@
           "name": "serumMarket",
           "isMut": false,
           "isSigner": false,
-          "relations": [
-            "group",
-            "serum_program",
-            "serum_market_external"
-          ]
+          "relations": ["group", "serum_program", "serum_market_external"]
         },
         {
           "name": "serumProgram",
@@ -3383,9 +3193,7 @@
           "name": "account",
           "isMut": true,
           "isSigner": false,
-          "relations": [
-            "group"
-          ]
+          "relations": ["group"]
         },
         {
           "name": "owner",
@@ -3401,11 +3209,7 @@
           "name": "serumMarket",
           "isMut": false,
           "isSigner": false,
-          "relations": [
-            "group",
-            "serum_program",
-            "serum_market_external"
-          ]
+          "relations": ["group", "serum_program", "serum_market_external"]
         },
         {
           "name": "serumProgram",
@@ -3431,17 +3235,13 @@
           "name": "marketVaultSigner",
           "isMut": false,
           "isSigner": false,
-          "docs": [
-            "needed for the automatic settle_funds call"
-          ]
+          "docs": ["needed for the automatic settle_funds call"]
         },
         {
           "name": "quoteBank",
           "isMut": true,
           "isSigner": false,
-          "relations": [
-            "group"
-          ]
+          "relations": ["group"]
         },
         {
           "name": "quoteVault",
@@ -3452,9 +3252,7 @@
           "name": "baseBank",
           "isMut": true,
           "isSigner": false,
-          "relations": [
-            "group"
-          ]
+          "relations": ["group"]
         },
         {
           "name": "baseVault",
@@ -3488,9 +3286,7 @@
               "name": "account",
               "isMut": true,
               "isSigner": false,
-              "relations": [
-                "group"
-              ]
+              "relations": ["group"]
             },
             {
               "name": "owner",
@@ -3506,11 +3302,7 @@
               "name": "serumMarket",
               "isMut": false,
               "isSigner": false,
-              "relations": [
-                "group",
-                "serum_program",
-                "serum_market_external"
-              ]
+              "relations": ["group", "serum_program", "serum_market_external"]
             },
             {
               "name": "serumProgram",
@@ -3536,17 +3328,13 @@
               "name": "marketVaultSigner",
               "isMut": false,
               "isSigner": false,
-              "docs": [
-                "needed for the automatic settle_funds call"
-              ]
+              "docs": ["needed for the automatic settle_funds call"]
             },
             {
               "name": "quoteBank",
               "isMut": true,
               "isSigner": false,
-              "relations": [
-                "group"
-              ]
+              "relations": ["group"]
             },
             {
               "name": "quoteVault",
@@ -3557,9 +3345,7 @@
               "name": "baseBank",
               "isMut": true,
               "isSigner": false,
-              "relations": [
-                "group"
-              ]
+              "relations": ["group"]
             },
             {
               "name": "baseVault",
@@ -3608,9 +3394,7 @@
           "name": "account",
           "isMut": true,
           "isSigner": false,
-          "relations": [
-            "group"
-          ]
+          "relations": ["group"]
         },
         {
           "name": "openOrders",
@@ -3621,11 +3405,7 @@
           "name": "serumMarket",
           "isMut": false,
           "isSigner": false,
-          "relations": [
-            "group",
-            "serum_program",
-            "serum_market_external"
-          ]
+          "relations": ["group", "serum_program", "serum_market_external"]
         },
         {
           "name": "serumProgram",
@@ -3671,9 +3451,7 @@
           "name": "quoteBank",
           "isMut": true,
           "isSigner": false,
-          "relations": [
-            "group"
-          ]
+          "relations": ["group"]
         },
         {
           "name": "quoteVault",
@@ -3684,9 +3462,7 @@
           "name": "baseBank",
           "isMut": true,
           "isSigner": false,
-          "relations": [
-            "group"
-          ]
+          "relations": ["group"]
         },
         {
           "name": "baseVault",
@@ -3718,9 +3494,7 @@
           "name": "liqor",
           "isMut": true,
           "isSigner": false,
-          "relations": [
-            "group"
-          ]
+          "relations": ["group"]
         },
         {
           "name": "liqorOwner",
@@ -3731,9 +3505,7 @@
           "name": "liqee",
           "isMut": true,
           "isSigner": false,
-          "relations": [
-            "group"
-          ]
+          "relations": ["group"]
         }
       ],
       "args": [
@@ -3760,17 +3532,13 @@
           "name": "group",
           "isMut": false,
           "isSigner": false,
-          "relations": [
-            "insurance_vault"
-          ]
+          "relations": ["insurance_vault"]
         },
         {
           "name": "liqor",
           "isMut": true,
           "isSigner": false,
-          "relations": [
-            "group"
-          ]
+          "relations": ["group"]
         },
         {
           "name": "liqorOwner",
@@ -3781,17 +3549,13 @@
           "name": "liqee",
           "isMut": true,
           "isSigner": false,
-          "relations": [
-            "group"
-          ]
+          "relations": ["group"]
         },
         {
           "name": "liabMintInfo",
           "isMut": false,
           "isSigner": false,
-          "relations": [
-            "group"
-          ]
+          "relations": ["group"]
         },
         {
           "name": "quoteVault",
@@ -3830,9 +3594,7 @@
           "name": "liqor",
           "isMut": true,
           "isSigner": false,
-          "relations": [
-            "group"
-          ]
+          "relations": ["group"]
         },
         {
           "name": "liqorOwner",
@@ -3843,9 +3605,7 @@
           "name": "liqee",
           "isMut": true,
           "isSigner": false,
-          "relations": [
-            "group"
-          ]
+          "relations": ["group"]
         }
       ],
       "args": [
@@ -3877,9 +3637,7 @@
           "name": "liqor",
           "isMut": true,
           "isSigner": false,
-          "relations": [
-            "group"
-          ]
+          "relations": ["group"]
         },
         {
           "name": "liqorOwner",
@@ -3890,9 +3648,7 @@
           "name": "liqee",
           "isMut": true,
           "isSigner": false,
-          "relations": [
-            "group"
-          ]
+          "relations": ["group"]
         }
       ],
       "args": [
@@ -3917,17 +3673,13 @@
           "name": "group",
           "isMut": false,
           "isSigner": false,
-          "relations": [
-            "insurance_vault"
-          ]
+          "relations": ["insurance_vault"]
         },
         {
           "name": "liqor",
           "isMut": true,
           "isSigner": false,
-          "relations": [
-            "group"
-          ]
+          "relations": ["group"]
         },
         {
           "name": "liqorOwner",
@@ -3938,17 +3690,13 @@
           "name": "liqee",
           "isMut": true,
           "isSigner": false,
-          "relations": [
-            "group"
-          ]
+          "relations": ["group"]
         },
         {
           "name": "liabMintInfo",
           "isMut": false,
           "isSigner": false,
-          "relations": [
-            "group"
-          ]
+          "relations": ["group"]
         },
         {
           "name": "quoteVault",
@@ -3987,19 +3735,13 @@
           "name": "account",
           "isMut": true,
           "isSigner": false,
-          "relations": [
-            "group"
-          ]
+          "relations": ["group"]
         },
         {
           "name": "bank",
           "isMut": true,
           "isSigner": false,
-          "relations": [
-            "group",
-            "vault",
-            "oracle"
-          ]
+          "relations": ["group", "vault", "oracle"]
         },
         {
           "name": "vault",
@@ -4034,19 +3776,13 @@
     },
     {
       "name": "perpCreateMarket",
-      "docs": [
-        "",
-        "Perps",
-        ""
-      ],
+      "docs": ["", "Perps", ""],
       "accounts": [
         {
           "name": "group",
           "isMut": false,
           "isSigner": false,
-          "relations": [
-            "admin"
-          ]
+          "relations": ["admin"]
         },
         {
           "name": "admin",
@@ -4246,9 +3982,7 @@
           "name": "perpMarket",
           "isMut": true,
           "isSigner": false,
-          "relations": [
-            "group"
-          ]
+          "relations": ["group"]
         },
         {
           "name": "oracle",
@@ -4456,9 +4190,7 @@
           "name": "group",
           "isMut": false,
           "isSigner": false,
-          "relations": [
-            "admin"
-          ]
+          "relations": ["admin"]
         },
         {
           "name": "admin",
@@ -4469,12 +4201,7 @@
           "name": "perpMarket",
           "isMut": true,
           "isSigner": false,
-          "relations": [
-            "group",
-            "bids",
-            "asks",
-            "event_queue"
-          ]
+          "relations": ["group", "bids", "asks", "event_queue"]
         },
         {
           "name": "bids",
@@ -4516,9 +4243,7 @@
           "name": "account",
           "isMut": true,
           "isSigner": false,
-          "relations": [
-            "group"
-          ]
+          "relations": ["group"]
         },
         {
           "name": "owner",
@@ -4529,9 +4254,41 @@
           "name": "perpMarket",
           "isMut": false,
           "isSigner": false,
-          "relations": [
-            "group"
-          ]
+          "relations": ["group"]
+        }
+      ],
+      "args": []
+    },
+    {
+      "name": "perpPurgePosition",
+      "accounts": [
+        {
+          "name": "group",
+          "isMut": false,
+          "isSigner": false
+        },
+        {
+          "name": "account",
+          "isMut": true,
+          "isSigner": false,
+          "relations": ["group"]
+        },
+        {
+          "name": "perpMarket",
+          "isMut": false,
+          "isSigner": false,
+          "relations": ["group"]
+        },
+        {
+          "name": "settleBank",
+          "isMut": true,
+          "isSigner": false,
+          "relations": ["group"]
+        },
+        {
+          "name": "settleOracle",
+          "isMut": false,
+          "isSigner": false
         }
       ],
       "args": []
@@ -4548,9 +4305,7 @@
           "name": "account",
           "isMut": true,
           "isSigner": false,
-          "relations": [
-            "group"
-          ]
+          "relations": ["group"]
         },
         {
           "name": "owner",
@@ -4561,13 +4316,7 @@
           "name": "perpMarket",
           "isMut": true,
           "isSigner": false,
-          "relations": [
-            "group",
-            "bids",
-            "asks",
-            "event_queue",
-            "oracle"
-          ]
+          "relations": ["group", "bids", "asks", "event_queue", "oracle"]
         },
         {
           "name": "bids",
@@ -4648,9 +4397,7 @@
           "name": "account",
           "isMut": true,
           "isSigner": false,
-          "relations": [
-            "group"
-          ]
+          "relations": ["group"]
         },
         {
           "name": "owner",
@@ -4661,13 +4408,7 @@
           "name": "perpMarket",
           "isMut": true,
           "isSigner": false,
-          "relations": [
-            "group",
-            "bids",
-            "asks",
-            "event_queue",
-            "oracle"
-          ]
+          "relations": ["group", "bids", "asks", "event_queue", "oracle"]
         },
         {
           "name": "bids",
@@ -4754,9 +4495,7 @@
           "name": "account",
           "isMut": true,
           "isSigner": false,
-          "relations": [
-            "group"
-          ]
+          "relations": ["group"]
         },
         {
           "name": "owner",
@@ -4767,13 +4506,7 @@
           "name": "perpMarket",
           "isMut": true,
           "isSigner": false,
-          "relations": [
-            "group",
-            "bids",
-            "asks",
-            "event_queue",
-            "oracle"
-          ]
+          "relations": ["group", "bids", "asks", "event_queue", "oracle"]
         },
         {
           "name": "bids",
@@ -4862,9 +4595,7 @@
           "name": "account",
           "isMut": true,
           "isSigner": false,
-          "relations": [
-            "group"
-          ]
+          "relations": ["group"]
         },
         {
           "name": "owner",
@@ -4875,13 +4606,7 @@
           "name": "perpMarket",
           "isMut": true,
           "isSigner": false,
-          "relations": [
-            "group",
-            "bids",
-            "asks",
-            "event_queue",
-            "oracle"
-          ]
+          "relations": ["group", "bids", "asks", "event_queue", "oracle"]
         },
         {
           "name": "bids",
@@ -4976,9 +4701,7 @@
           "name": "account",
           "isMut": true,
           "isSigner": false,
-          "relations": [
-            "group"
-          ]
+          "relations": ["group"]
         },
         {
           "name": "owner",
@@ -4989,11 +4712,7 @@
           "name": "perpMarket",
           "isMut": true,
           "isSigner": false,
-          "relations": [
-            "group",
-            "bids",
-            "asks"
-          ]
+          "relations": ["group", "bids", "asks"]
         },
         {
           "name": "bids",
@@ -5025,9 +4744,7 @@
           "name": "account",
           "isMut": true,
           "isSigner": false,
-          "relations": [
-            "group"
-          ]
+          "relations": ["group"]
         },
         {
           "name": "owner",
@@ -5038,11 +4755,7 @@
           "name": "perpMarket",
           "isMut": true,
           "isSigner": false,
-          "relations": [
-            "group",
-            "bids",
-            "asks"
-          ]
+          "relations": ["group", "bids", "asks"]
         },
         {
           "name": "bids",
@@ -5074,9 +4787,7 @@
           "name": "account",
           "isMut": true,
           "isSigner": false,
-          "relations": [
-            "group"
-          ]
+          "relations": ["group"]
         },
         {
           "name": "owner",
@@ -5087,11 +4798,7 @@
           "name": "perpMarket",
           "isMut": true,
           "isSigner": false,
-          "relations": [
-            "group",
-            "bids",
-            "asks"
-          ]
+          "relations": ["group", "bids", "asks"]
         },
         {
           "name": "bids",
@@ -5123,9 +4830,7 @@
           "name": "account",
           "isMut": true,
           "isSigner": false,
-          "relations": [
-            "group"
-          ]
+          "relations": ["group"]
         },
         {
           "name": "owner",
@@ -5136,11 +4841,7 @@
           "name": "perpMarket",
           "isMut": true,
           "isSigner": false,
-          "relations": [
-            "group",
-            "bids",
-            "asks"
-          ]
+          "relations": ["group", "bids", "asks"]
         },
         {
           "name": "bids",
@@ -5169,6 +4870,44 @@
       ]
     },
     {
+      "name": "perpPurgeOrders",
+      "accounts": [
+        {
+          "name": "group",
+          "isMut": false,
+          "isSigner": false
+        },
+        {
+          "name": "account",
+          "isMut": true,
+          "isSigner": false,
+          "relations": ["group"]
+        },
+        {
+          "name": "perpMarket",
+          "isMut": true,
+          "isSigner": false,
+          "relations": ["group", "bids", "asks"]
+        },
+        {
+          "name": "bids",
+          "isMut": true,
+          "isSigner": false
+        },
+        {
+          "name": "asks",
+          "isMut": true,
+          "isSigner": false
+        }
+      ],
+      "args": [
+        {
+          "name": "limit",
+          "type": "u8"
+        }
+      ]
+    },
+    {
       "name": "perpConsumeEvents",
       "accounts": [
         {
@@ -5180,10 +4919,7 @@
           "name": "perpMarket",
           "isMut": true,
           "isSigner": false,
-          "relations": [
-            "group",
-            "event_queue"
-          ]
+          "relations": ["group", "event_queue"]
         },
         {
           "name": "eventQueue",
@@ -5210,12 +4946,7 @@
           "name": "perpMarket",
           "isMut": true,
           "isSigner": false,
-          "relations": [
-            "group",
-            "bids",
-            "asks",
-            "oracle"
-          ]
+          "relations": ["group", "bids", "asks", "oracle"]
         },
         {
           "name": "bids",
@@ -5247,9 +4978,7 @@
           "name": "settler",
           "isMut": true,
           "isSigner": false,
-          "relations": [
-            "group"
-          ]
+          "relations": ["group"]
         },
         {
           "name": "settlerOwner",
@@ -5260,26 +4989,19 @@
           "name": "perpMarket",
           "isMut": false,
           "isSigner": false,
-          "relations": [
-            "group",
-            "oracle"
-          ]
+          "relations": ["group", "oracle"]
         },
         {
           "name": "accountA",
           "isMut": true,
           "isSigner": false,
-          "relations": [
-            "group"
-          ]
+          "relations": ["group"]
         },
         {
           "name": "accountB",
           "isMut": true,
           "isSigner": false,
-          "relations": [
-            "group"
-          ]
+          "relations": ["group"]
         },
         {
           "name": "oracle",
@@ -5290,9 +5012,7 @@
           "name": "settleBank",
           "isMut": true,
           "isSigner": false,
-          "relations": [
-            "group"
-          ]
+          "relations": ["group"]
         },
         {
           "name": "settleOracle",
@@ -5314,26 +5034,19 @@
           "name": "perpMarket",
           "isMut": true,
           "isSigner": false,
-          "relations": [
-            "group",
-            "oracle"
-          ]
+          "relations": ["group", "oracle"]
         },
         {
           "name": "accountA",
           "isMut": true,
           "isSigner": false,
-          "relations": [
-            "group"
-          ]
+          "relations": ["group"]
         },
         {
           "name": "accountB",
           "isMut": true,
           "isSigner": false,
-          "relations": [
-            "group"
-          ]
+          "relations": ["group"]
         },
         {
           "name": "oracle",
@@ -5355,18 +5068,13 @@
           "name": "perpMarket",
           "isMut": true,
           "isSigner": false,
-          "relations": [
-            "group",
-            "oracle"
-          ]
+          "relations": ["group", "oracle"]
         },
         {
           "name": "account",
           "isMut": true,
           "isSigner": false,
-          "relations": [
-            "group"
-          ]
+          "relations": ["group"]
         },
         {
           "name": "oracle",
@@ -5377,9 +5085,7 @@
           "name": "settleBank",
           "isMut": true,
           "isSigner": false,
-          "relations": [
-            "group"
-          ]
+          "relations": ["group"]
         },
         {
           "name": "settleOracle",
@@ -5406,10 +5112,7 @@
           "name": "perpMarket",
           "isMut": true,
           "isSigner": false,
-          "relations": [
-            "group",
-            "oracle"
-          ]
+          "relations": ["group", "oracle"]
         },
         {
           "name": "oracle",
@@ -5420,9 +5123,7 @@
           "name": "liqor",
           "isMut": true,
           "isSigner": false,
-          "relations": [
-            "group"
-          ]
+          "relations": ["group"]
         },
         {
           "name": "liqorOwner",
@@ -5433,17 +5134,13 @@
           "name": "liqee",
           "isMut": true,
           "isSigner": false,
-          "relations": [
-            "group"
-          ]
+          "relations": ["group"]
         },
         {
           "name": "settleBank",
           "isMut": true,
           "isSigner": false,
-          "relations": [
-            "group"
-          ]
+          "relations": ["group"]
         },
         {
           "name": "settleVault",
@@ -5479,19 +5176,13 @@
           "name": "account",
           "isMut": true,
           "isSigner": false,
-          "relations": [
-            "group"
-          ]
+          "relations": ["group"]
         },
         {
           "name": "perpMarket",
           "isMut": true,
           "isSigner": false,
-          "relations": [
-            "group",
-            "bids",
-            "asks"
-          ]
+          "relations": ["group", "bids", "asks"]
         },
         {
           "name": "bids",
@@ -5518,17 +5209,13 @@
           "name": "group",
           "isMut": false,
           "isSigner": false,
-          "relations": [
-            "insurance_vault"
-          ]
+          "relations": ["insurance_vault"]
         },
         {
           "name": "liqor",
           "isMut": true,
           "isSigner": false,
-          "relations": [
-            "group"
-          ]
+          "relations": ["group"]
         },
         {
           "name": "liqorOwner",
@@ -5539,18 +5226,13 @@
           "name": "liqee",
           "isMut": true,
           "isSigner": false,
-          "relations": [
-            "group"
-          ]
+          "relations": ["group"]
         },
         {
           "name": "perpMarket",
           "isMut": true,
           "isSigner": false,
-          "relations": [
-            "group",
-            "oracle"
-          ]
+          "relations": ["group", "oracle"]
         },
         {
           "name": "oracle",
@@ -5561,9 +5243,7 @@
           "name": "settleBank",
           "isMut": true,
           "isSigner": false,
-          "relations": [
-            "group"
-          ]
+          "relations": ["group"]
         },
         {
           "name": "settleVault",
@@ -5600,17 +5280,13 @@
           "name": "group",
           "isMut": false,
           "isSigner": false,
-          "relations": [
-            "insurance_vault"
-          ]
+          "relations": ["insurance_vault"]
         },
         {
           "name": "liqor",
           "isMut": true,
           "isSigner": false,
-          "relations": [
-            "group"
-          ]
+          "relations": ["group"]
         },
         {
           "name": "liqorOwner",
@@ -5621,18 +5297,13 @@
           "name": "liqee",
           "isMut": true,
           "isSigner": false,
-          "relations": [
-            "group"
-          ]
+          "relations": ["group"]
         },
         {
           "name": "perpMarket",
           "isMut": true,
           "isSigner": false,
-          "relations": [
-            "group",
-            "oracle"
-          ]
+          "relations": ["group", "oracle"]
         },
         {
           "name": "oracle",
@@ -5643,9 +5314,7 @@
           "name": "settleBank",
           "isMut": true,
           "isSigner": false,
-          "relations": [
-            "group"
-          ]
+          "relations": ["group"]
         },
         {
           "name": "settleVault",
@@ -5666,9 +5335,7 @@
           "name": "insuranceBank",
           "isMut": true,
           "isSigner": false,
-          "relations": [
-            "group"
-          ]
+          "relations": ["group"]
         },
         {
           "name": "insuranceBankVault",
@@ -5705,9 +5372,7 @@
           "name": "account",
           "isMut": true,
           "isSigner": false,
-          "relations": [
-            "group"
-          ]
+          "relations": ["group"]
         },
         {
           "name": "authority",
@@ -5718,17 +5383,13 @@
           "name": "buyBank",
           "isMut": false,
           "isSigner": false,
-          "relations": [
-            "group"
-          ]
+          "relations": ["group"]
         },
         {
           "name": "sellBank",
           "isMut": false,
           "isSigner": false,
-          "relations": [
-            "group"
-          ]
+          "relations": ["group"]
         }
       ],
       "args": [
@@ -5778,9 +5439,7 @@
           "name": "account",
           "isMut": true,
           "isSigner": false,
-          "relations": [
-            "group"
-          ]
+          "relations": ["group"]
         },
         {
           "name": "authority",
@@ -5791,17 +5450,13 @@
           "name": "buyBank",
           "isMut": false,
           "isSigner": false,
-          "relations": [
-            "group"
-          ]
+          "relations": ["group"]
         },
         {
           "name": "sellBank",
           "isMut": false,
           "isSigner": false,
-          "relations": [
-            "group"
-          ]
+          "relations": ["group"]
         }
       ],
       "args": [
@@ -5863,9 +5518,7 @@
           "name": "account",
           "isMut": true,
           "isSigner": false,
-          "relations": [
-            "group"
-          ]
+          "relations": ["group"]
         },
         {
           "name": "authority",
@@ -5876,17 +5529,13 @@
           "name": "buyBank",
           "isMut": false,
           "isSigner": false,
-          "relations": [
-            "group"
-          ]
+          "relations": ["group"]
         },
         {
           "name": "sellBank",
           "isMut": false,
           "isSigner": false,
-          "relations": [
-            "group"
-          ]
+          "relations": ["group"]
         }
       ],
       "args": [
@@ -5952,9 +5601,7 @@
           "name": "account",
           "isMut": true,
           "isSigner": false,
-          "relations": [
-            "group"
-          ]
+          "relations": ["group"]
         },
         {
           "name": "authority",
@@ -5965,17 +5612,13 @@
           "name": "buyBank",
           "isMut": false,
           "isSigner": false,
-          "relations": [
-            "group"
-          ]
+          "relations": ["group"]
         },
         {
           "name": "sellBank",
           "isMut": false,
           "isSigner": false,
-          "relations": [
-            "group"
-          ]
+          "relations": ["group"]
         }
       ],
       "args": [
@@ -6035,9 +5678,7 @@
           "name": "account",
           "isMut": true,
           "isSigner": false,
-          "relations": [
-            "group"
-          ]
+          "relations": ["group"]
         },
         {
           "name": "authority",
@@ -6048,20 +5689,14 @@
           "name": "buyBank",
           "isMut": true,
           "isSigner": false,
-          "docs": [
-            "The bank's token_index is checked at #1"
-          ],
-          "relations": [
-            "group"
-          ]
+          "docs": ["The bank's token_index is checked at #1"],
+          "relations": ["group"]
         },
         {
           "name": "sellBank",
           "isMut": true,
           "isSigner": false,
-          "relations": [
-            "group"
-          ]
+          "relations": ["group"]
         }
       ],
       "args": [
@@ -6087,17 +5722,13 @@
           "name": "liqee",
           "isMut": true,
           "isSigner": false,
-          "relations": [
-            "group"
-          ]
+          "relations": ["group"]
         },
         {
           "name": "liqor",
           "isMut": true,
           "isSigner": false,
-          "relations": [
-            "group"
-          ]
+          "relations": ["group"]
         },
         {
           "name": "liqorAuthority",
@@ -6136,17 +5767,13 @@
           "name": "liqee",
           "isMut": true,
           "isSigner": false,
-          "relations": [
-            "group"
-          ]
+          "relations": ["group"]
         },
         {
           "name": "liqor",
           "isMut": true,
           "isSigner": false,
-          "relations": [
-            "group"
-          ]
+          "relations": ["group"]
         },
         {
           "name": "liqorAuthority",
@@ -6193,17 +5820,13 @@
           "name": "liqee",
           "isMut": true,
           "isSigner": false,
-          "relations": [
-            "group"
-          ]
+          "relations": ["group"]
         },
         {
           "name": "liqor",
           "isMut": true,
           "isSigner": false,
-          "relations": [
-            "group"
-          ]
+          "relations": ["group"]
         },
         {
           "name": "liqorAuthority",
@@ -6234,9 +5857,7 @@
           "name": "account",
           "isMut": true,
           "isSigner": false,
-          "relations": [
-            "group"
-          ]
+          "relations": ["group"]
         }
       ],
       "args": []
@@ -6248,9 +5869,7 @@
           "name": "group",
           "isMut": true,
           "isSigner": false,
-          "relations": [
-            "admin"
-          ]
+          "relations": ["admin"]
         },
         {
           "name": "admin",
@@ -6277,9 +5896,7 @@
           "name": "group",
           "isMut": false,
           "isSigner": false,
-          "relations": [
-            "admin"
-          ]
+          "relations": ["admin"]
         },
         {
           "name": "admin",
@@ -6312,9 +5929,7 @@
     },
     {
       "name": "computeAccountData",
-      "docs": [
-        "Warning, this instruction is for testing purposes only!"
-      ],
+      "docs": ["Warning, this instruction is for testing purposes only!"],
       "accounts": [
         {
           "name": "group",
@@ -6325,28 +5940,20 @@
           "name": "account",
           "isMut": false,
           "isSigner": false,
-          "relations": [
-            "group"
-          ]
+          "relations": ["group"]
         }
       ],
       "args": []
     },
     {
       "name": "openbookV2RegisterMarket",
-      "docs": [
-        "",
-        "OpenbookV2",
-        ""
-      ],
+      "docs": ["", "OpenbookV2", ""],
       "accounts": [
         {
           "name": "group",
           "isMut": true,
           "isSigner": false,
-          "relations": [
-            "admin"
-          ]
+          "relations": ["admin"]
         },
         {
           "name": "admin",
@@ -6415,17 +6022,13 @@
           "name": "quoteBank",
           "isMut": false,
           "isSigner": false,
-          "relations": [
-            "group"
-          ]
+          "relations": ["group"]
         },
         {
           "name": "baseBank",
           "isMut": false,
           "isSigner": false,
-          "relations": [
-            "group"
-          ]
+          "relations": ["group"]
         },
         {
           "name": "payer",
@@ -6466,9 +6069,7 @@
           "name": "market",
           "isMut": true,
           "isSigner": false,
-          "relations": [
-            "group"
-          ]
+          "relations": ["group"]
         }
       ],
       "args": [
@@ -6493,9 +6094,7 @@
           "name": "group",
           "isMut": true,
           "isSigner": false,
-          "relations": [
-            "admin"
-          ]
+          "relations": ["admin"]
         },
         {
           "name": "admin",
@@ -6506,17 +6105,13 @@
           "name": "openbookV2Market",
           "isMut": true,
           "isSigner": false,
-          "relations": [
-            "group"
-          ]
+          "relations": ["group"]
         },
         {
           "name": "indexReservation",
           "isMut": true,
           "isSigner": false,
-          "relations": [
-            "group"
-          ]
+          "relations": ["group"]
         },
         {
           "name": "solDestination",
@@ -6543,9 +6138,7 @@
           "name": "account",
           "isMut": true,
           "isSigner": false,
-          "relations": [
-            "group"
-          ]
+          "relations": ["group"]
         },
         {
           "name": "authority",
@@ -6641,9 +6234,7 @@
           "name": "account",
           "isMut": true,
           "isSigner": false,
-          "relations": [
-            "group"
-          ]
+          "relations": ["group"]
         },
         {
           "name": "authority",
@@ -6695,9 +6286,7 @@
           "name": "account",
           "isMut": true,
           "isSigner": false,
-          "relations": [
-            "group"
-          ]
+          "relations": ["group"]
         },
         {
           "name": "authority",
@@ -6723,11 +6312,7 @@
           "name": "openbookV2MarketExternal",
           "isMut": true,
           "isSigner": false,
-          "relations": [
-            "bids",
-            "asks",
-            "event_heap"
-          ]
+          "relations": ["bids", "asks", "event_heap"]
         },
         {
           "name": "bids",
@@ -6763,20 +6348,14 @@
           "name": "payerBank",
           "isMut": true,
           "isSigner": false,
-          "docs": [
-            "The bank that pays for the order, if necessary"
-          ],
-          "relations": [
-            "group"
-          ]
+          "docs": ["The bank that pays for the order, if necessary"],
+          "relations": ["group"]
         },
         {
           "name": "payerVault",
           "isMut": true,
           "isSigner": false,
-          "docs": [
-            "The bank vault that pays for the order, if necessary"
-          ]
+          "docs": ["The bank vault that pays for the order, if necessary"]
         },
         {
           "name": "payerOracle",
@@ -6836,9 +6415,7 @@
           "name": "account",
           "isMut": true,
           "isSigner": false,
-          "relations": [
-            "group"
-          ]
+          "relations": ["group"]
         },
         {
           "name": "authority",
@@ -6864,11 +6441,7 @@
           "name": "openbookV2MarketExternal",
           "isMut": true,
           "isSigner": false,
-          "relations": [
-            "bids",
-            "asks",
-            "event_heap"
-          ]
+          "relations": ["bids", "asks", "event_heap"]
         },
         {
           "name": "bids",
@@ -6909,20 +6482,14 @@
           "name": "payerBank",
           "isMut": true,
           "isSigner": false,
-          "docs": [
-            "The bank that pays for the order, if necessary"
-          ],
-          "relations": [
-            "group"
-          ]
+          "docs": ["The bank that pays for the order, if necessary"],
+          "relations": ["group"]
         },
         {
           "name": "payerVault",
           "isMut": true,
           "isSigner": false,
-          "docs": [
-            "The bank vault that pays for the order, if necessary"
-          ]
+          "docs": ["The bank vault that pays for the order, if necessary"]
         },
         {
           "name": "payerOracle",
@@ -6978,9 +6545,7 @@
           "name": "account",
           "isMut": true,
           "isSigner": false,
-          "relations": [
-            "group"
-          ]
+          "relations": ["group"]
         },
         {
           "name": "authority",
@@ -7011,10 +6576,7 @@
           "name": "openbookV2MarketExternal",
           "isMut": false,
           "isSigner": false,
-          "relations": [
-            "bids",
-            "asks"
-          ]
+          "relations": ["bids", "asks"]
         },
         {
           "name": "bids",
@@ -7050,9 +6612,7 @@
           "name": "account",
           "isMut": true,
           "isSigner": false,
-          "relations": [
-            "group"
-          ]
+          "relations": ["group"]
         },
         {
           "name": "authority",
@@ -7098,17 +6658,13 @@
           "name": "marketVaultSigner",
           "isMut": false,
           "isSigner": false,
-          "docs": [
-            "needed for the automatic settle_funds call"
-          ]
+          "docs": ["needed for the automatic settle_funds call"]
         },
         {
           "name": "quoteBank",
           "isMut": true,
           "isSigner": false,
-          "relations": [
-            "group"
-          ]
+          "relations": ["group"]
         },
         {
           "name": "quoteVault",
@@ -7119,9 +6675,7 @@
           "name": "baseBank",
           "isMut": true,
           "isSigner": false,
-          "relations": [
-            "group"
-          ]
+          "relations": ["group"]
         },
         {
           "name": "baseVault",
@@ -7163,9 +6717,7 @@
           "name": "account",
           "isMut": true,
           "isSigner": false,
-          "relations": [
-            "group"
-          ]
+          "relations": ["group"]
         },
         {
           "name": "openOrders",
@@ -7191,11 +6743,7 @@
           "name": "openbookV2MarketExternal",
           "isMut": false,
           "isSigner": false,
-          "relations": [
-            "bids",
-            "asks",
-            "event_heap"
-          ]
+          "relations": ["bids", "asks", "event_heap"]
         },
         {
           "name": "bids",
@@ -7231,9 +6779,7 @@
           "name": "quoteBank",
           "isMut": true,
           "isSigner": false,
-          "relations": [
-            "group"
-          ]
+          "relations": ["group"]
         },
         {
           "name": "quoteVault",
@@ -7244,9 +6790,7 @@
           "name": "baseBank",
           "isMut": true,
           "isSigner": false,
-          "relations": [
-            "group"
-          ]
+          "relations": ["group"]
         },
         {
           "name": "baseVault",
@@ -7278,9 +6822,7 @@
           "name": "account",
           "isMut": true,
           "isSigner": false,
-          "relations": [
-            "group"
-          ]
+          "relations": ["group"]
         },
         {
           "name": "authority",
@@ -7311,10 +6853,7 @@
           "name": "openbookV2MarketExternal",
           "isMut": false,
           "isSigner": false,
-          "relations": [
-            "bids",
-            "asks"
-          ]
+          "relations": ["bids", "asks"]
         },
         {
           "name": "bids",
@@ -7336,11 +6875,7 @@
     },
     {
       "name": "benchmark",
-      "docs": [
-        "",
-        "benchmark",
-        ""
-      ],
+      "docs": ["", "benchmark", ""],
       "accounts": [
         {
           "name": "dummy",
@@ -7364,10 +6899,7 @@
           {
             "name": "name",
             "type": {
-              "array": [
-                "u8",
-                16
-              ]
+              "array": ["u8", 16]
             }
           },
           {
@@ -7602,16 +7134,12 @@
           },
           {
             "name": "netBorrowLimitWindowSizeTs",
-            "docs": [
-              "Size in seconds of a net borrows window"
-            ],
+            "docs": ["Size in seconds of a net borrows window"],
             "type": "u64"
           },
           {
             "name": "lastNetBorrowsWindowStartTs",
-            "docs": [
-              "Timestamp at which the last net borrows window started"
-            ],
+            "docs": ["Timestamp at which the last net borrows window started"],
             "type": "u64"
           },
           {
@@ -7676,10 +7204,7 @@
           {
             "name": "tier",
             "type": {
-              "array": [
-                "u8",
-                4
-              ]
+              "array": ["u8", 4]
             }
           },
           {
@@ -7688,9 +7213,7 @@
           },
           {
             "name": "tokenConditionalSwapTakerFeeRate",
-            "docs": [
-              "Fees for the token conditional swap feature"
-            ],
+            "docs": ["Fees for the token conditional swap feature"],
             "type": "f32"
           },
           {
@@ -7754,9 +7277,7 @@
           },
           {
             "name": "maintWeightShiftAssetTarget",
-            "docs": [
-              "Maint asset weight to reach at _shift_end."
-            ],
+            "docs": ["Maint asset weight to reach at _shift_end."],
             "type": {
               "defined": "I80F48"
             }
@@ -7777,9 +7298,7 @@
           },
           {
             "name": "depositLimit",
-            "docs": [
-              "zero means none, in token native"
-            ],
+            "docs": ["zero means none, in token native"],
             "type": "u64"
           },
           {
@@ -7834,10 +7353,7 @@
           {
             "name": "reserved",
             "type": {
-              "array": [
-                "u8",
-                1900
-              ]
+              "array": ["u8", 1900]
             }
           }
         ]
@@ -7871,10 +7387,7 @@
           {
             "name": "padding",
             "type": {
-              "array": [
-                "u8",
-                2
-              ]
+              "array": ["u8", 2]
             }
           },
           {
@@ -7908,10 +7421,7 @@
           {
             "name": "addressLookupTables",
             "type": {
-              "array": [
-                "publicKey",
-                20
-              ]
+              "array": ["publicKey", 20]
             }
           },
           {
@@ -7952,41 +7462,29 @@
           },
           {
             "name": "fastListingsInInterval",
-            "docs": [
-              "Number of fast listings that happened this interval"
-            ],
+            "docs": ["Number of fast listings that happened this interval"],
             "type": "u16"
           },
           {
             "name": "allowedFastListingsPerInterval",
-            "docs": [
-              "Number of fast listings that are allowed per interval"
-            ],
+            "docs": ["Number of fast listings that are allowed per interval"],
             "type": "u16"
           },
           {
             "name": "padding2",
             "type": {
-              "array": [
-                "u8",
-                4
-              ]
+              "array": ["u8", 4]
             }
           },
           {
             "name": "collateralFeeInterval",
-            "docs": [
-              "Intervals in which collateral fee is applied"
-            ],
+            "docs": ["Intervals in which collateral fee is applied"],
             "type": "u64"
           },
           {
             "name": "reserved",
             "type": {
-              "array": [
-                "u8",
-                1800
-              ]
+              "array": ["u8", 1800]
             }
           }
         ]
@@ -8008,10 +7506,7 @@
           {
             "name": "name",
             "type": {
-              "array": [
-                "u8",
-                32
-              ]
+              "array": ["u8", 32]
             }
           },
           {
@@ -8083,9 +7578,7 @@
           },
           {
             "name": "buybackFeesAccruedPrevious",
-            "docs": [
-              "Fees buyback amount from the previous expiry interval."
-            ],
+            "docs": ["Fees buyback amount from the previous expiry interval."],
             "type": "u64"
           },
           {
@@ -8097,9 +7590,7 @@
           },
           {
             "name": "nextTokenConditionalSwapId",
-            "docs": [
-              "Next id to use when adding a token condition swap"
-            ],
+            "docs": ["Next id to use when adding a token condition swap"],
             "type": "u64"
           },
           {
@@ -8112,18 +7603,13 @@
           },
           {
             "name": "lastCollateralFeeCharge",
-            "docs": [
-              "Time at which the last collateral fee was charged"
-            ],
+            "docs": ["Time at which the last collateral fee was charged"],
             "type": "u64"
           },
           {
             "name": "reserved",
             "type": {
-              "array": [
-                "u8",
-                152
-              ]
+              "array": ["u8", 152]
             }
           },
           {
@@ -8133,10 +7619,7 @@
           {
             "name": "padding3",
             "type": {
-              "array": [
-                "u8",
-                7
-              ]
+              "array": ["u8", 7]
             }
           },
           {
@@ -8202,10 +7685,7 @@
           {
             "name": "reservedDynamic",
             "type": {
-              "array": [
-                "u8",
-                64
-              ]
+              "array": ["u8", 64]
             }
           }
         ]
@@ -8231,10 +7711,7 @@
           {
             "name": "padding1",
             "type": {
-              "array": [
-                "u8",
-                5
-              ]
+              "array": ["u8", 5]
             }
           },
           {
@@ -8244,19 +7721,13 @@
           {
             "name": "banks",
             "type": {
-              "array": [
-                "publicKey",
-                6
-              ]
+              "array": ["publicKey", 6]
             }
           },
           {
             "name": "vaults",
             "type": {
-              "array": [
-                "publicKey",
-                6
-              ]
+              "array": ["publicKey", 6]
             }
           },
           {
@@ -8274,10 +7745,7 @@
           {
             "name": "reserved",
             "type": {
-              "array": [
-                "u8",
-                2528
-              ]
+              "array": ["u8", 2528]
             }
           }
         ]
@@ -8311,19 +7779,13 @@
           {
             "name": "padding1",
             "type": {
-              "array": [
-                "u8",
-                2
-              ]
+              "array": ["u8", 2]
             }
           },
           {
             "name": "name",
             "type": {
-              "array": [
-                "u8",
-                16
-              ]
+              "array": ["u8", 16]
             }
           },
           {
@@ -8345,10 +7807,7 @@
           {
             "name": "padding2",
             "type": {
-              "array": [
-                "u8",
-                5
-              ]
+              "array": ["u8", 5]
             }
           },
           {
@@ -8358,10 +7817,7 @@
           {
             "name": "reserved",
             "type": {
-              "array": [
-                "u8",
-                512
-              ]
+              "array": ["u8", 512]
             }
           }
         ]
@@ -8383,10 +7839,7 @@
           {
             "name": "reserved",
             "type": {
-              "array": [
-                "u8",
-                38
-              ]
+              "array": ["u8", 38]
             }
           }
         ]
@@ -8428,10 +7881,7 @@
           {
             "name": "reserved",
             "type": {
-              "array": [
-                "u8",
-                104
-              ]
+              "array": ["u8", 104]
             }
           }
         ]
@@ -8467,10 +7917,7 @@
           {
             "name": "reserved",
             "type": {
-              "array": [
-                "u8",
-                256
-              ]
+              "array": ["u8", 256]
             }
           },
           {
@@ -8507,10 +7954,7 @@
           {
             "name": "reserved",
             "type": {
-              "array": [
-                "u8",
-                64
-              ]
+              "array": ["u8", 64]
             }
           }
         ]
@@ -8552,16 +7996,12 @@
           },
           {
             "name": "groupInsuranceFund",
-            "docs": [
-              "Is this market covered by the group insurance fund?"
-            ],
+            "docs": ["Is this market covered by the group insurance fund?"],
             "type": "u8"
           },
           {
             "name": "bump",
-            "docs": [
-              "PDA bump"
-            ],
+            "docs": ["PDA bump"],
             "type": "u8"
           },
           {
@@ -8575,49 +8015,34 @@
           },
           {
             "name": "name",
-            "docs": [
-              "Name. Trailing zero bytes are ignored."
-            ],
+            "docs": ["Name. Trailing zero bytes are ignored."],
             "type": {
-              "array": [
-                "u8",
-                16
-              ]
+              "array": ["u8", 16]
             }
           },
           {
             "name": "bids",
-            "docs": [
-              "Address of the BookSide account for bids"
-            ],
+            "docs": ["Address of the BookSide account for bids"],
             "type": "publicKey"
           },
           {
             "name": "asks",
-            "docs": [
-              "Address of the BookSide account for asks"
-            ],
+            "docs": ["Address of the BookSide account for asks"],
             "type": "publicKey"
           },
           {
             "name": "eventQueue",
-            "docs": [
-              "Address of the EventQueue account"
-            ],
+            "docs": ["Address of the EventQueue account"],
             "type": "publicKey"
           },
           {
             "name": "oracle",
-            "docs": [
-              "Oracle account address"
-            ],
+            "docs": ["Oracle account address"],
             "type": "publicKey"
           },
           {
             "name": "oracleConfig",
-            "docs": [
-              "Oracle configuration"
-            ],
+            "docs": ["Oracle configuration"],
             "type": {
               "defined": "OracleConfig"
             }
@@ -8693,32 +8118,24 @@
           },
           {
             "name": "seqNum",
-            "docs": [
-              "Total number of orders seen"
-            ],
+            "docs": ["Total number of orders seen"],
             "type": "u64"
           },
           {
             "name": "registrationTime",
-            "docs": [
-              "Timestamp in seconds that the market was registered at."
-            ],
+            "docs": ["Timestamp in seconds that the market was registered at."],
             "type": "u64"
           },
           {
             "name": "minFunding",
-            "docs": [
-              "Minimal funding rate per day, must be <= 0."
-            ],
+            "docs": ["Minimal funding rate per day, must be <= 0."],
             "type": {
               "defined": "I80F48"
             }
           },
           {
             "name": "maxFunding",
-            "docs": [
-              "Maximal funding rate per day, must be >= 0."
-            ],
+            "docs": ["Maximal funding rate per day, must be >= 0."],
             "type": {
               "defined": "I80F48"
             }
@@ -8745,44 +8162,33 @@
           },
           {
             "name": "shortFunding",
-            "docs": [
-              "See long_funding."
-            ],
+            "docs": ["See long_funding."],
             "type": {
               "defined": "I80F48"
             }
           },
           {
             "name": "fundingLastUpdated",
-            "docs": [
-              "timestamp that funding was last updated in"
-            ],
+            "docs": ["timestamp that funding was last updated in"],
             "type": "u64"
           },
           {
             "name": "baseLiquidationFee",
-            "docs": [
-              "Fees",
-              "Fee for base position liquidation"
-            ],
+            "docs": ["Fees", "Fee for base position liquidation"],
             "type": {
               "defined": "I80F48"
             }
           },
           {
             "name": "makerFee",
-            "docs": [
-              "Fee when matching maker orders. May be negative."
-            ],
+            "docs": ["Fee when matching maker orders. May be negative."],
             "type": {
               "defined": "I80F48"
             }
           },
           {
             "name": "takerFee",
-            "docs": [
-              "Fee for taker orders, may not be negative."
-            ],
+            "docs": ["Fee for taker orders, may not be negative."],
             "type": {
               "defined": "I80F48"
             }
@@ -8809,9 +8215,7 @@
           },
           {
             "name": "feePenalty",
-            "docs": [
-              "Fee (in quote native) to charge for ioc orders"
-            ],
+            "docs": ["Fee (in quote native) to charge for ioc orders"],
             "type": "f32"
           },
           {
@@ -8857,17 +8261,12 @@
           {
             "name": "padding3",
             "type": {
-              "array": [
-                "u8",
-                4
-              ]
+              "array": ["u8", 4]
             }
           },
           {
             "name": "settlePnlLimitWindowSizeTs",
-            "docs": [
-              "Window size in seconds for the perp settlement limit"
-            ],
+            "docs": ["Window size in seconds for the perp settlement limit"],
             "type": "u64"
           },
           {
@@ -8885,17 +8284,12 @@
           {
             "name": "padding4",
             "type": {
-              "array": [
-                "u8",
-                6
-              ]
+              "array": ["u8", 6]
             }
           },
           {
             "name": "maintOverallAssetWeight",
-            "docs": [
-              "Weights for full perp market health, if positive"
-            ],
+            "docs": ["Weights for full perp market health, if positive"],
             "type": {
               "defined": "I80F48"
             }
@@ -8940,10 +8334,7 @@
           {
             "name": "reserved",
             "type": {
-              "array": [
-                "u8",
-                1848
-              ]
+              "array": ["u8", 1848]
             }
           }
         ]
@@ -8977,19 +8368,13 @@
           {
             "name": "padding1",
             "type": {
-              "array": [
-                "u8",
-                2
-              ]
+              "array": ["u8", 2]
             }
           },
           {
             "name": "name",
             "type": {
-              "array": [
-                "u8",
-                16
-              ]
+              "array": ["u8", 16]
             }
           },
           {
@@ -9011,10 +8396,7 @@
           {
             "name": "padding2",
             "type": {
-              "array": [
-                "u8",
-                1
-              ]
+              "array": ["u8", 1]
             }
           },
           {
@@ -9034,10 +8416,7 @@
           {
             "name": "reserved",
             "type": {
-              "array": [
-                "u8",
-                128
-              ]
+              "array": ["u8", 128]
             }
           }
         ]
@@ -9059,10 +8438,7 @@
           {
             "name": "reserved",
             "type": {
-              "array": [
-                "u8",
-                38
-              ]
+              "array": ["u8", 38]
             }
           }
         ]
@@ -9256,9 +8632,7 @@
           },
           {
             "name": "approvedAmount",
-            "docs": [
-              "The amount that was transfered out to the user"
-            ],
+            "docs": ["The amount that was transfered out to the user"],
             "type": "u64"
           }
         ]
@@ -9322,9 +8696,7 @@
           },
           {
             "name": "approvedAmount",
-            "docs": [
-              "The amount that was transfered out to the user"
-            ],
+            "docs": ["The amount that was transfered out to the user"],
             "type": "u64"
           }
         ]
@@ -9346,9 +8718,7 @@
           },
           {
             "name": "tokenIndex",
-            "docs": [
-              "index into Group.tokens"
-            ],
+            "docs": ["index into Group.tokens"],
             "type": "u16"
           },
           {
@@ -9361,10 +8731,7 @@
           {
             "name": "padding",
             "type": {
-              "array": [
-                "u8",
-                4
-              ]
+              "array": ["u8", 4]
             }
           },
           {
@@ -9384,10 +8751,7 @@
           {
             "name": "reserved",
             "type": {
-              "array": [
-                "u8",
-                128
-              ]
+              "array": ["u8", 128]
             }
           }
         ]
@@ -9436,10 +8800,7 @@
           {
             "name": "padding",
             "type": {
-              "array": [
-                "u8",
-                2
-              ]
+              "array": ["u8", 2]
             }
           },
           {
@@ -9494,10 +8855,7 @@
           {
             "name": "reserved",
             "type": {
-              "array": [
-                "u8",
-                16
-              ]
+              "array": ["u8", 16]
             }
           }
         ]
@@ -9515,17 +8873,12 @@
           {
             "name": "padding",
             "type": {
-              "array": [
-                "u8",
-                2
-              ]
+              "array": ["u8", 2]
             }
           },
           {
             "name": "settlePnlLimitWindow",
-            "docs": [
-              "Index of the current settle pnl limit window"
-            ],
+            "docs": ["Index of the current settle pnl limit window"],
             "type": "u32"
           },
           {
@@ -9543,9 +8896,7 @@
           },
           {
             "name": "basePositionLots",
-            "docs": [
-              "Active position size, measured in base lots"
-            ],
+            "docs": ["Active position size, measured in base lots"],
             "type": "i64"
           },
           {
@@ -9573,34 +8924,26 @@
           },
           {
             "name": "longSettledFunding",
-            "docs": [
-              "Already settled long funding"
-            ],
+            "docs": ["Already settled long funding"],
             "type": {
               "defined": "I80F48"
             }
           },
           {
             "name": "shortSettledFunding",
-            "docs": [
-              "Already settled short funding"
-            ],
+            "docs": ["Already settled short funding"],
             "type": {
               "defined": "I80F48"
             }
           },
           {
             "name": "bidsBaseLots",
-            "docs": [
-              "Base lots in open bids"
-            ],
+            "docs": ["Base lots in open bids"],
             "type": "i64"
           },
           {
             "name": "asksBaseLots",
-            "docs": [
-              "Base lots in open asks"
-            ],
+            "docs": ["Base lots in open asks"],
             "type": "i64"
           },
           {
@@ -9737,10 +9080,7 @@
           {
             "name": "reserved",
             "type": {
-              "array": [
-                "u8",
-                88
-              ]
+              "array": ["u8", 88]
             }
           }
         ]
@@ -9758,10 +9098,7 @@
           {
             "name": "padding1",
             "type": {
-              "array": [
-                "u8",
-                1
-              ]
+              "array": ["u8", 1]
             }
           },
           {
@@ -9771,10 +9108,7 @@
           {
             "name": "padding2",
             "type": {
-              "array": [
-                "u8",
-                4
-              ]
+              "array": ["u8", 4]
             }
           },
           {
@@ -9792,10 +9126,7 @@
           {
             "name": "reserved",
             "type": {
-              "array": [
-                "u8",
-                56
-              ]
+              "array": ["u8", 56]
             }
           }
         ]
@@ -9817,10 +9148,7 @@
           {
             "name": "name",
             "type": {
-              "array": [
-                "u8",
-                32
-              ]
+              "array": ["u8", 32]
             }
           },
           {
@@ -9894,10 +9222,7 @@
           {
             "name": "reserved",
             "type": {
-              "array": [
-                "u8",
-                152
-              ]
+              "array": ["u8", 152]
             }
           }
         ]
@@ -9921,10 +9246,7 @@
           {
             "name": "reserved",
             "type": {
-              "array": [
-                "u8",
-                72
-              ]
+              "array": ["u8", 72]
             }
           }
         ]
@@ -9967,10 +9289,7 @@
           {
             "name": "padding",
             "type": {
-              "array": [
-                "u8",
-                3
-              ]
+              "array": ["u8", 3]
             }
           },
           {
@@ -9983,16 +9302,12 @@
           },
           {
             "name": "key",
-            "docs": [
-              "only the top `prefix_len` bits of `key` are relevant"
-            ],
+            "docs": ["only the top `prefix_len` bits of `key` are relevant"],
             "type": "u128"
           },
           {
             "name": "children",
-            "docs": [
-              "indexes into `BookSide::nodes`"
-            ],
+            "docs": ["indexes into `BookSide::nodes`"],
             "type": {
               "array": [
                 "u32",
@@ -10009,19 +9324,13 @@
               "iterate through the whole bookside."
             ],
             "type": {
-              "array": [
-                "u64",
-                2
-              ]
+              "array": ["u64", 2]
             }
           },
           {
             "name": "reserved",
             "type": {
-              "array": [
-                "u8",
-                72
-              ]
+              "array": ["u8", 72]
             }
           }
         ]
@@ -10029,24 +9338,18 @@
     },
     {
       "name": "LeafNode",
-      "docs": [
-        "LeafNodes represent an order in the binary tree"
-      ],
+      "docs": ["LeafNodes represent an order in the binary tree"],
       "type": {
         "kind": "struct",
         "fields": [
           {
             "name": "tag",
-            "docs": [
-              "NodeTag"
-            ],
+            "docs": ["NodeTag"],
             "type": "u8"
           },
           {
             "name": "ownerSlot",
-            "docs": [
-              "Index into the owning MangoAccount's PerpOpenOrders"
-            ],
+            "docs": ["Index into the owning MangoAccount's PerpOpenOrders"],
             "type": "u8"
           },
           {
@@ -10059,10 +9362,7 @@
           {
             "name": "padding",
             "type": {
-              "array": [
-                "u8",
-                1
-              ]
+              "array": ["u8", 1]
             }
           },
           {
@@ -10076,38 +9376,27 @@
           {
             "name": "padding2",
             "type": {
-              "array": [
-                "u8",
-                2
-              ]
+              "array": ["u8", 2]
             }
           },
           {
             "name": "key",
-            "docs": [
-              "The binary tree key, see new_node_key()"
-            ],
+            "docs": ["The binary tree key, see new_node_key()"],
             "type": "u128"
           },
           {
             "name": "owner",
-            "docs": [
-              "Address of the owning MangoAccount"
-            ],
+            "docs": ["Address of the owning MangoAccount"],
             "type": "publicKey"
           },
           {
             "name": "quantity",
-            "docs": [
-              "Number of base lots to buy or sell, always >=1"
-            ],
+            "docs": ["Number of base lots to buy or sell, always >=1"],
             "type": "i64"
           },
           {
             "name": "timestamp",
-            "docs": [
-              "The time the order was placed"
-            ],
+            "docs": ["The time the order was placed"],
             "type": "u64"
           },
           {
@@ -10122,18 +9411,13 @@
           },
           {
             "name": "clientOrderId",
-            "docs": [
-              "User defined id for this order, used in FillEvents"
-            ],
+            "docs": ["User defined id for this order, used in FillEvents"],
             "type": "u64"
           },
           {
             "name": "reserved",
             "type": {
-              "array": [
-                "u8",
-                32
-              ]
+              "array": ["u8", 32]
             }
           }
         ]
@@ -10151,10 +9435,7 @@
           {
             "name": "data",
             "type": {
-              "array": [
-                "u8",
-                111
-              ]
+              "array": ["u8", 111]
             }
           },
           {
@@ -10197,10 +9478,7 @@
           {
             "name": "padding",
             "type": {
-              "array": [
-                "u8",
-                3
-              ]
+              "array": ["u8", 3]
             }
           },
           {
@@ -10218,10 +9496,7 @@
           {
             "name": "reserved",
             "type": {
-              "array": [
-                "u8",
-                512
-              ]
+              "array": ["u8", 512]
             }
           },
           {
@@ -10270,10 +9545,7 @@
           {
             "name": "padding",
             "type": {
-              "array": [
-                "u8",
-                207
-              ]
+              "array": ["u8", 207]
             }
           }
         ]
@@ -10303,10 +9575,7 @@
           {
             "name": "padding",
             "type": {
-              "array": [
-                "u8",
-                4
-              ]
+              "array": ["u8", 4]
             }
           },
           {
@@ -10324,10 +9593,7 @@
           {
             "name": "padding2",
             "type": {
-              "array": [
-                "u8",
-                32
-              ]
+              "array": ["u8", 32]
             }
           },
           {
@@ -10341,10 +9607,7 @@
           {
             "name": "padding3",
             "type": {
-              "array": [
-                "u8",
-                16
-              ]
+              "array": ["u8", 16]
             }
           },
           {
@@ -10378,10 +9641,7 @@
           {
             "name": "reserved",
             "type": {
-              "array": [
-                "u8",
-                8
-              ]
+              "array": ["u8", 8]
             }
           }
         ]
@@ -10407,10 +9667,7 @@
           {
             "name": "padding0",
             "type": {
-              "array": [
-                "u8",
-                5
-              ]
+              "array": ["u8", 5]
             }
           },
           {
@@ -10436,10 +9693,7 @@
           {
             "name": "padding1",
             "type": {
-              "array": [
-                "u8",
-                128
-              ]
+              "array": ["u8", 128]
             }
           }
         ]
@@ -10465,9 +9719,7 @@
         "fields": [
           {
             "name": "stablePrice",
-            "docs": [
-              "Current stable price to use in health"
-            ],
+            "docs": ["Current stable price to use in health"],
             "type": "f64"
           },
           {
@@ -10484,10 +9736,7 @@
               "we use the next one."
             ],
             "type": {
-              "array": [
-                "f64",
-                24
-              ]
+              "array": ["f64", 24]
             }
           },
           {
@@ -10500,16 +9749,12 @@
           },
           {
             "name": "delayAccumulatorTime",
-            "docs": [
-              "Accumulating the total time for the above average."
-            ],
+            "docs": ["Accumulating the total time for the above average."],
             "type": "u32"
           },
           {
             "name": "delayIntervalSeconds",
-            "docs": [
-              "Length of a delay_interval"
-            ],
+            "docs": ["Length of a delay_interval"],
             "type": "u32"
           },
           {
@@ -10544,19 +9789,13 @@
           {
             "name": "padding",
             "type": {
-              "array": [
-                "u8",
-                6
-              ]
+              "array": ["u8", 6]
             }
           },
           {
             "name": "reserved",
             "type": {
-              "array": [
-                "u8",
-                48
-              ]
+              "array": ["u8", 48]
             }
           }
         ]
@@ -10573,9 +9812,7 @@
           },
           {
             "name": "maxBuy",
-            "docs": [
-              "maximum amount of native tokens to buy or sell"
-            ],
+            "docs": ["maximum amount of native tokens to buy or sell"],
             "type": "u64"
           },
           {
@@ -10584,9 +9821,7 @@
           },
           {
             "name": "bought",
-            "docs": [
-              "how many native tokens were already bought/sold"
-            ],
+            "docs": ["how many native tokens were already bought/sold"],
             "type": "u64"
           },
           {
@@ -10595,9 +9830,7 @@
           },
           {
             "name": "expiryTimestamp",
-            "docs": [
-              "timestamp until which the conditional swap is valid"
-            ],
+            "docs": ["timestamp until which the conditional swap is valid"],
             "type": "u64"
           },
           {
@@ -10659,9 +9892,7 @@
           },
           {
             "name": "buyTokenIndex",
-            "docs": [
-              "indexes of tokens for the swap"
-            ],
+            "docs": ["indexes of tokens for the swap"],
             "type": "u16"
           },
           {
@@ -10711,18 +9942,13 @@
           },
           {
             "name": "tcsType",
-            "docs": [
-              "Stores a TokenConditionalSwapType enum value"
-            ],
+            "docs": ["Stores a TokenConditionalSwapType enum value"],
             "type": "u8"
           },
           {
             "name": "padding",
             "type": {
-              "array": [
-                "u8",
-                6
-              ]
+              "array": ["u8", 6]
             }
           },
           {
@@ -10750,10 +9976,7 @@
           {
             "name": "reserved",
             "type": {
-              "array": [
-                "u8",
-                88
-              ]
+              "array": ["u8", 88]
             }
           }
         ]
